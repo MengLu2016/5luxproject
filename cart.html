@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>第五大道:中国最大的奢侈品和商务礼品销售中心，Gucci、Prada 普拉达、Burberry 巴宝莉、Cartier 卡地亚、Tiffany、Coach</title>
+    <link rel="stylesheet" href="css/header.css" type="text/css">
+    <link rel="stylesheet" href="css/footer.css" type="text/css">
+    <link rel="stylesheet" href="css/cart.css" type="text/css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/register.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/cart.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/goods_detail.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+    <!--头部-->
+    <div id="header">
+        <div id="newRule">
+            <a href="#"><img src="img/14616431307030.jpg"></a>
+        </div>
+        <div id="popUp">
+            <a href="#"><img src="img/14604469773476.png"></a>
+        </div>
+        <!--头部-导航-->
+        <div id="headerNav">
+            <div id="headerNav1210">
+                <div class="home">
+                    <b></b>
+                    <a href="index.html">第五大道首页</a>
+                    <i></i>
+                </div>
+                <div class="phone">
+                    <b></b>贵宾专线：400-660-5610
+                </div>
+                <div class="info">
+                    <dl class="mobile">
+                        <dt>
+                            <span>手机版下载</span>
+                        </dt>
+                        <dd>
+                            <ul>
+                                <li><img src="img/qr.jpg"/></li>
+                                <li>扫描下载APP</li>
+                                <li>立即
+                                    <span>赠送50元</span>
+                                </li>
+                            </ul>
+                        </dd>
+                    </dl>
+                    <div class="help">
+                        <a href="#">帮助中心</a>
+                        <i></i>
+                    </div>
+                    <dl class="my5lux">
+                        <dt>
+                            <a href="http://www.5lux.com/uuser/">
+                                <span>我的第五大道</span>
+                                <i></i>
+                            </a>
+                        </dt>
+                        <dd>
+                            <ul>
+                                <li><a href="#">我的订单</a></li>
+                                <li><a href="#">我的收藏</a></li>
+                                <li><a href="#">已购商品</a></li>
+                                <li><a href="#">我的礼券</a></li>
+                                <li><a href="#">我的积分</a></li>
+                            </ul>
+                        </dd>
+                    </dl>
+                    <div class="logbox">
+                        <div class="login">
+                            <a href="login.html">
+                                <span>登录</span>
+                            </a>
+                            <i></i>
+                        </div>
+                        <div class="register">
+                            <span class="registerPic"></span>
+                            <a href="register.html">注册</a>
+                            <i></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--头部-搜索-->
+        <div id="headerMiddle">
+            <div id="headerMiddle1210">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/logo.jpg" title="第五大道奢侈品网" alt="www.5lux.com"/>
+                    </a>
+                </div>
+                <div class="ad">
+                    <a href="#">
+                        <img src="img/yijian.jpg" alt="www.5lux.com" title="一键连接奢侈品专柜">
+                    </a>
+                </div>
+                <div class="search">
+                    <div class="searchInput">
+                        <input type="text" placeholder="爱马仕铂金包"/>
+                        <input type="button" value="搜 索"/>
+                    </div>
+                    <ul class="adlist">
+                        <li><a href="#">腕表</a></li>
+                        <li><a href="#">箱包</a></li>
+                        <li><a href="#">阿玛尼</a></li>
+                        <li><a href="#">T恤</a></li>
+                    </ul>
+                </div>
+                <div class="cart">
+                    <dl>
+                        <dt>
+                            <img src="img/v30cart.png"/>
+                            购物袋 (<span> 0 </span>)
+                        </dt>
+                        <dd>
+                            <p>购物袋暂时没有商品，<br>赶紧选择心爱的商品吧！</p>
+                        </dd>
+                        <b></b>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <!--三级菜单-->
+        <div id="nav">
+            <div class="nav1210">
+                <ul class="menu">
+                    <li class="menu_list" id="menu_List">
+                        <a href="#" id="menuFirst" class="nav_a">商品分类</a>
+                        <div class="first">
+                            <ul class="first_list">
+                                <li class="first_category">
+                                    <div class="secondary recommend">
+                                        <a href="#">
+                                            <span>推荐品牌</span>
+                                            <i></i>
+                                        </a>
+                                    </div>
+                                    <div class="menu_show">
+                                        <div class="showshop">
+                                            <h2><a href="/">国际高端</a></h2>
+                                            <div class="showbag">
+                                                <a href="#">Louis Vuitton/LV</a>
+                                            </div>
+                                        </div>
+                                        <div class="showindex"><a href="#">进入所有品牌</a></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu_list">
+                        <a href="#" class="nav_a">品牌</a>
+                    </li>
+                    <li class="menu_list">
+                        <a href="#" class="nav_a">最新</a>
+                    </li>
+                    <li class="menu_list">
+                        <a href="#" class="nav_a">女士</a>
+                    </li>
+                    <li class="menu_list">
+                        <a href="#" class="nav_a">男士</a>
+                    </li>
+                    <li class="menu_list">
+                        <a href="#" class="nav_a">生活馆</a>
+                    </li>
+                    <li class="menu_list">
+                        <a href="#" class="nav_a">海外馆</a>
+                    </li>
+                    <li class="menu_list">
+                        <a href="#" class="nav_a">时尚</a>
+                    </li>
+                    <li class="menu_list">
+                        <a href="#" class="nav_a">特惠</a>
+                    </li>
+                    <li class="menu_list">
+                        <a href="#" class="nav_a">礼品区</a>
+                    </li>
+                    <li class="menu_list">
+                        <a href="#" class="nav_a">
+                            <i></i>
+                            <span>到店</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul id="icon_wrap">
+                    <li>
+                        <div class="divList1">
+                            <a href="#" class="nav_a">
+                                <span class="icon1"></span>
+                                <b>品牌授权,官方验证</b>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="divList2">
+                            <a href="" class="nav_a">
+                                <span class="icon2"></span>
+                                <b>尊享品牌会员服务</b>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="divList3">
+                            <a href="" class="nav_a">
+                                <span class="icon3"></span>
+                                <b>商务部诚信示范企业</b>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="clearfloat"></div>
+    <!--购物车-->
+    <div id="cart">
+        <p class="cart_step1"></p>
+        <div class="clearboth"></div>
+        <!--cart_tbody start-->
+        <div id="cart_tbody">
+            <table width="1190" class="cart_goods" cellspacing="0" cellpadding="0">
+                <tbody>
+                    <tr>
+                        <th width="80" class="cart_tcheck">
+                            <input type="checkbox" name="product_checkall" value="1" class="cart_tfinput" checked="checked">全选
+                        </th>
+                        <th></th>
+                        <th width="233">商品名称</th>
+                        <th width="112">商品属性</th>
+                        <th width="170">购物价</th>
+                        <th width="112">购买数量</th>
+                        <th width="167">活动信息</th>
+                        <th width="176">小计</th>
+                        <th width="75" class="cart_operate">操作</th>
+                    </tr>
+                    <tr>
+                        <td colspan="9" height="20">
+                            <div class="cart_msg">
+                                <div class="cart_msg_btn" style="cursor:pointer">
+                                    <span>满赠</span>
+                                </div>
+                                <div class="cart_msg_text">
+                                    <span>您已经参加了 订单满100000元送价值1199元时尚管家服务</span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="border_v"></td>
+                        <td height="80" class="border_v">
+                            <div class="border_img">
+                                <b></b>
+                                <img src="img/147644087916_544x544.jpg" width="75" height="80" alt="时尚管家">
+                            </div>
+                        </td>
+                        <td class="border_v">时尚管家时尚管家</td>
+                        <td class="border_v">—</td>
+                        <td class="border_v">—</td>
+                        <td class="border_v">1</td>
+                        <td class="border_v">订单满100000元送价值1199元时尚管家服务</td>
+                        <td class="border_v">—</td>
+                        <td class="border_v border_r cart_goods_ope">—</td>
+                    </tr>
+                    <tr class="goods_tr">
+                        <!--单个产品选中框-->
+                        <td class="border_v tr_lineleft" width="40">
+                            <input type="checkbox" name="product_selected_" value="10700" checked="checked" class="check_box">
+                        </td>
+                        <td class="border_v" height="100">
+                            <a href="goods_detail.html" class="goodsImg">
+                                <img src="" width="75">
+                            </a>
+                        </td>
+                        <td class="border_v" style="width:200px;">
+                            <a href="goods_detail.html" class="goodsInfo"></a>
+                        </td>
+                        <td class="border_v goodsColor"></td>
+                        <!--单个产品价格-->
+                        <td class="border_v goodsPrice"></td>
+                        <td class="border_v">
+                            <p class="cart_goods_num">
+                                <a id="reduce-10700-10700" class="cart-reduce">-</a>
+                                <!--单个产品数量-->
+                                <input readonly="" type="text" value="1">
+                                <a id="increase-10700-10700" class="cart-increase">+</a>
+                            </p></td>
+                        <td class="border_v"></td>
+                        <td class="border_v tr_price"></td>
+                        <td class="border_v border_r cart_goods_ope tr_operate">
+                            <a id="remove-10700-10700" class="cart-remove">删除</a>
+                            <a href="#" class="goods-collect" product_id="10700" id="remove-10700-10700">移入收藏夹</a>
+                            <a href="#" onclick="cart.cart_addpackage(10700)" id="addpack_10700" style="display:black" class="cart_dz_btn">
+                                <b></b>定制包装
+                            </a>
+                            <a href="#" id="cancelpack_10700" class="cart_qx_btn" style="display:none;">
+                                <b></b>取消包装
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="btn_price_info clearfix">
+                <div class="check_info">
+                    <input type="checkbox" name="product_checkall" value="1" class="cart_tfinput" checked="checked"><a>全选</a>&nbsp;&nbsp;
+                    <a href="goods_detail.html">继续购物</a>&nbsp;
+                    <a class="cart_goods_empty">清空购物车</a>
+                </div>
+                <div class="btn_price_area">
+                    <p class="textm">
+                        <span>已选商品<i class="red_number">：</i>件</span>
+                        <span class="ttlprice">商品总金额(不含运费)：</span>
+                        <strong></strong>
+                        <a href="#" class="mleft20 click_con">&nbsp;
+                            <span id="cart_confirm" class="all_bigBtn allred_btn check_btn">点击结算</span>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="blanks">
+            <span class="blanks01">您还没有购买商品哦</span>
+            <span class="blanks02">
+                <a href="index.html">去首页看看&gt;&gt;</a>
+            </span>
+        </div>
+        <!--cart_tbody end-->
+    </div>
+    <!--底部-->
+    <div id="footer">
+        <div class="footer1210">
+            <div class="footer_top">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="img/footer_message01.jpg"/>
+                        </a>
+                        <div class="footer_top_text">
+                            <p class="text_title">正品保障</p>
+                            <p>
+                                <a href="#">品牌授权,官方验真</a>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/footer_message02.jpg"/>
+                        </a>
+                        <div class="footer_top_text">
+                            <p class="text_title">专柜发货</p>
+                            <p>
+                                <a href="#">专柜直接或到店自提</a>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/footer_message03.jpg"/>
+                        </a>
+                        <div class="footer_top_text">
+                            <p class="text_title">无忧售后</p>
+                            <p>
+                                <a href="#">7天无理由退换货</a>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/footer_message04.jpg"/>
+                        </a>
+                        <div class="footer_top_text">
+                            <p class="text_title">VIP服务</p>
+                            <p>
+                                <a href="#">享品牌会员售前售后服务</a>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="img/footer_message05.jpg"/>
+                        </a>
+                        <div class="footer_top_text">
+                            <p class="text_title">权威荣誉</p>
+                            <p>
+                                <a href="#">商务部授予诚信示范企业</a>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_middle">
+                <ul>
+                    <li>
+                        <dl>
+                            <dt>服务保障</dt>
+                            <dd><a href="#">品牌授权正品</a></dd>
+                            <dd><a href="#">品牌客服</a></dd>
+                            <dd><a href="#">预约到店体验</a></dd>
+                            <dd><a href="#">7天无理由退换</a></dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>使用帮助</dt>
+                            <dd><a href="#">常见问题</a></dd>
+                            <dd><a href="#">会员制度</a></dd>
+                            <dd><a href="#">集团采购</a></dd>
+                            <dd><a href="#">礼品卡</a></dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>支付方式</dt>
+                            <dd><a href="#">到店付款</a></dd>
+                            <dd><a href="#">货到付款</a></dd>
+                            <dd><a href="#">在线支付</a></dd>
+                            <dd><a href="#">余额支付</a></dd>
+                            <dd><a href="#">分期付款</a></dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>配送方式</dt>
+                            <dd><a href="#">配送说明</a></dd>
+                            <dd><a href="#">到店自提</a></dd>
+                            <dd><a href="#">运费说明</a></dd>
+                            <dd><a href="#">验货签收</a></dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>售后服务</dt>
+                            <dd><a href="#">品牌售后</a></dd>
+                            <dd><a href="#">售后咨询</a></dd>
+                            <dd><a href="#">退换政策</a></dd>
+                            <dd><a href="#">发票保障</a></dd>
+                        </dl>
+                    </li>
+                    <li class="footer_middle_app">
+                        <dl>
+                            <dt>第五大道APP</dt>
+                            <dd><img src="img/footer_message06.jpg"></dd>
+                        </dl>
+                    </li>
+                    <li class="footer_middle_weibo"><dl>
+                        <dl>
+                            <dt>第五大道微博</dt>
+                            <dd><img src="img/footer_message07.jpg"></dd>
+                        </dl>
+                    </dl>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_bottom">
+                <div class="footer_bottom_top">
+                    <a href="#">箱包</a>|
+                    <a href="#">美妆</a>|
+                    <a href="#">服饰</a>|
+                    <a href="#">腕表</a>|
+                    <a href="#">配饰</a>|
+                    <a href="#">鞋靴</a>|
+                    <a href="#">特惠</a>|
+                    <a href="#">名品闪购</a>|
+                    <a href="#">礼品区</a>
+                </div>
+                <div class="footer_bottom_middle">
+                    <a href="#">关于第五大道</a>|
+                    <a href="#">网站地图</a>|
+                    <a href="#">品牌合作专区</a>|
+                    <a href="#">媒体聚焦</a>|
+                    <a href="#">商务合作</a>|
+                    <a href="#">商家合作</a>|
+                    <a href="#">加入第五大道</a>|
+                    <a href="#">友情链接</a>|
+                    <a href="#">奢尚志</a>|
+                    <a href="#">联系我们</a>|
+                    <a href="#">投诉建议</a>
+                    <p>Copyright © 2008-2014 瑞美嘉信国际信息技术（北京）有限公司&nbsp; 版权所有京ICP备09012701号-1
+                        京公网安备110105007400号 食品经营许可证号：
+                    </p>
+                </div>
+                <div class="footer_bottom_bottom">
+                    <a href="#"><img src="img/14567178388519.jpg" alt="CCTV"></a>
+                    <a href="#"><img src="img/footer_message10.jpg" alt="360"></a>
+                    <a href="#"><img src="img/footer_message11.jpg"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--右侧栏快捷图标-->
+    <div id="right_menu">
+        <dl class="right_menu_dl">
+            <dt class="right_menu_dt">
+            <div class="menu1">
+                <ul class="menu1_ul">
+                    <li>
+                        <a href="#">
+                            <div class="tab-logo icon_cart"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="tab-logo icon_property"></div>
+                            <div class="tab-tip">我的资产
+                                <div class="right_menu-arr">◆</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="tab-logo icon_interesting"></div>
+                            <div class="tab-tip">我喜欢的商品
+                                <div class="right_menu-arr">◆</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="tab-logo icon_service"></div>
+                            <div class="tab-tip">联系客服
+                                <div class="right_menu-arr">◆</div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <div class="goods_cart">
+                    <i class="arrow"></i>
+                    <div class="close">
+                        <i></i>
+                    </div>
+                    <div class="cart_box">
+                        <i></i>
+                        <div class="cart_text">
+                            <p class="text1">
+                                <b>商品成功放入购物袋，我的购物袋有
+                                    <span>17</span>件商品
+                                </b>
+                            </p>
+                            <p class="text2">共计
+                                <span>￥368560</span>元，可以
+                                <a href="cart.html">去购物袋结算</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="recommend">
+                        <p>同类商品推荐</p>
+                        <ul class="recommend_list">
+                            <li>
+                                <dl>
+                                    <dt>
+                                        <a href="#">
+                                            <img src="img/2207_thumb_G_1252289765531.jpg" alt="pic">
+                                        </a>
+                                    </dt>
+                                    <dd>
+                                        <a href="#">银色Reverso</a>
+                                    </dd>
+                                    <dd>
+                                        <span>￥349350.00</span>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>
+                                        <a href="#">
+                                            <img src="img/2207_thumb_G_1252289765531.jpg" alt="pic">
+                                        </a>
+                                    </dt>
+                                    <dd>
+                                        <a href="#">银色Reverso</a>
+                                    </dd>
+                                    <dd>
+                                        <span>￥349350.00</span>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>
+                                        <a href="#">
+                                            <img src="img/2207_thumb_G_1252289765531.jpg" alt="pic">
+                                        </a>
+                                    </dt>
+                                    <dd>
+                                        <a href="#">银色Reverso</a>
+                                    </dd>
+                                    <dd>
+                                        <span>￥349350.00</span>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>
+                                        <a href="#">
+                                            <img src="img/2207_thumb_G_1252289765531.jpg" alt="pic">
+                                        </a>
+                                    </dt>
+                                    <dd>
+                                        <a href="#">银色Reverso</a>
+                                    </dd>
+                                    <dd>
+                                        <span>￥349350.00</span>
+                                    </dd>
+                                </dl>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="menu2">
+                <ul>
+                    <li>
+                        <div class="tab-logo icon_weixin"></div>
+                        <div class="menu_barcode">
+                            <img src="img/weixin_img.png" alt="weixin">
+                            <div class="right_menu-arr">◆</div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="tab-logo icon_feedback"></div>
+                            <div class="tab-tip">意见反馈
+                                <div class="right_menu-arr">◆</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="tab-logo icon_contactus"></div>
+                            <div class="tab-tip">联系我们
+                                <div class="right_menu-arr">◆</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="tab-logo icon_backtotop"></div>
+                            <div class="tab-tip">返回顶部
+                                <div class="right_menu-arr">◆</div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            </dt>
+            <dd class="right_menu_dd">
+                <div class="menu_info">
+                    <div class="info_property">
+                        <div class="info_bigbox">
+                            <div class="info_box">
+                                <div class="info_title">
+                                    我的资产
+                                    <b class="close"></b>
+                                </div>
+                                <div class="property_middle">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <b>1000</b>
+                                                <span>积分</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <b>6</b>
+                                                <span>优惠券</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <b>￥0.00</b>
+                                                <span>余额</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="property_coupon">
+                                    <ul>
+                                        <li>
+                                            <div class="coupon_box">
+                                                <span class="top_line"></span>
+                                                <span class="bottom_line"></span>
+                                                <p>
+                                                    <span class="new">新人注册20</span>
+                                                    <span class="term">有效期</span>
+                                                </p>
+                                                <div class="coupon_info">
+														<span class="money">
+															<strong>￥20.00</strong><br>
+															满0.00使用
+														</span>
+                                                    <span class="time">2016-01-12 13:43:21<br>
+															-2016-12-31 00:00:00
+														</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="coupon_box">
+                                                <span class="top_line"></span>
+                                                <span class="bottom_line"></span>
+                                                <p>
+                                                    <span class="new">新人注册20</span>
+                                                    <span class="term">有效期</span>
+                                                </p>
+                                                <div class="coupon_info">
+														<span class="money">
+															<strong>￥20.00</strong><br>
+															满0.00使用
+														</span>
+                                                    <span class="time">2016-01-12 13:43:21<br>
+															-2016-12-31 00:00:00
+														</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info_cart">
+                        <div class="info_bigbox">
+                            <div class="info_box">
+                                <div class="info_title">
+                                    购物袋
+                                    <b class="close"></b>
+                                </div>
+                                <div class="cart_middle" style="margin-top: 165px;">
+                                    <div class="bag_img">
+                                        <img src="img/shopping_bag.png">
+                                    </div>
+                                    <p>您的购物袋还没有商品</p>
+                                    <p>再去逛逛吧！</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info_interesting">
+                        <div class="info_bigbox">
+                            <div class="info_box">
+                                <div class="info_title">
+                                    我喜欢的商品
+                                    <b class="close"></b>
+                                </div>
+                                <div class="shopping_bag_box" style="margin-top: 15px;">
+                                    <div class="bag_img">
+                                        <img src="img/shopping_bag.png">
+                                    </div>
+                                    <p>您还没有收藏过商品！</p>
+                                    <p>看看下面可能有你喜欢的！</p>
+                                    <h2>你可能会喜欢</h2>
+                                    <ul class="like_good_box">
+                                        <li>
+                                            <div class="like_good_img">
+                                                <a href="/good/detail/142067">
+                                                    <img src="img/14464413311721.JPG">
+                                                </a>
+                                            </div>
+                                            <div class="like_good_text">
+                                                ￥ 10900.00
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="like_good_img">
+                                                <a href="/good/detail/142840">
+                                                    <img src="img/14476577059486_200x200.jpg">
+                                                </a>
+                                            </div>
+                                            <div class="like_good_text">
+                                                ￥ 12849.00
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="like_good_img">
+                                                <a href="/good/detail/137508">
+                                                    <img src="img/14403972956473_200x200.jpg">
+                                                </a>
+                                            </div>
+                                            <div class="like_good_text">
+                                                ￥ 26000.00
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="like_good_img">
+                                                <a href="/good/detail/139342">
+                                                    <img src="img/14431698893111.jpg">
+                                                </a>
+                                            </div>
+                                            <div class="like_good_text">
+                                                ￥ 3990.00
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="like_good_img">
+                                                <a href="/good/detail/55466">
+                                                    <img src="img/14198272864038.jpg">
+                                                </a>
+                                            </div>
+                                            <div class="like_good_text">
+                                                ￥ 3490.00
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </dd>
+        </dl>
+    </div>
+    <div id="cover" style="display: none; position: absolute; left: 0px; top: 210px; width: 100%; height: 100%; cursor: move; opacity: 0.2; background: rgb(0, 0, 0);"></div>
+</body>
+</html>

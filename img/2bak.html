@@ -1,0 +1,154 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>第五大道:中国最大的奢侈品和商务礼品销售中心，Gucci、Prada 普拉达、Burberry 巴宝莉、Cartier 卡地亚、Tiffany、Coach</title>
+<meta property="wb:webmaster" content="081ff6f3edc10503" />
+<meta property="qc:admins" content="7440306257654506375636" />
+<meta name="360-site-verification" content="c8eaa5c67593ddc1fb2c34afacef0463" />
+<meta name="Keywords" content="奢侈品,奢侈品网站，高端品质生活，第五大道">
+<meta name="description" content="第五大道(www.5lux.com)是中国第一家“网上的奥特莱斯”，在线折扣销售世界时尚名品、奢侈品和奢侈品保养服务，拥有品牌授权，支持专柜验货，7天无理由退换货，100%正品保证，为每位中国精英带来高端时尚生活品质快乐。">
+<link type="text/css" href="http://www.5lux.com/vendor/css/5lux/style.css?v=1" rel="stylesheet" />
+<link type="text/css" href="http://www.5lux.com/vendor/css/v30/v30_base.css?v=1" rel="stylesheet" />
+<link type="text/css" href="http://www.5lux.com/vendor/css/v30/v30_share.css" rel="stylesheet" />
+
+<script type="text/javascript" src="http://img.5lux.com.cn/source/js/jquery-1.11.0.min.js"></script>
+
+<script type="text/javascript" src="http://img.5lux.com.cn/source/js/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="http://img.5lux.com.cn/source/js/jquery.hoverIntent.minified.js"></script>
+
+
+<script type="text/javascript" src="http://www.5lux.com/vendor/js/common.js?v=20150528"></script><script type="text/javascript" src="http://www.5lux.com/vendor/js/global.js"></script><script type="text/javascript" src="http://www.5lux.com/vendor/js/util/v30/artdialog/4.1.7/jquery.artDialog.source.js"></script><script type="text/javascript" src="http://www.5lux.com/vendor/js/util/v30/artdialog/4.1.7/plugins/iframeTools.js"></script><link type="text/css" href="http://www.5lux.com/vendor/js/util/v30/artdialog/4.1.7/skin.css" rel="stylesheet" />
+<link type="text/css" href="http://img.5lux.com.cn/source/js/artdialog/skin.css" rel="stylesheet" />
+<!--360-cnzz-->
+<!--<script src='http://stat.e.tf.360.cn/search/c.js?u=964834786' language='JavaScript' ></script><script src='http://pw.cnzz.com/tongji_360.php?id=1251473140&pid=e360&l=2' language='JavaScript' charset='gb2312'></script>-->
+<!--[if IE 6]><script src="/vendor/js/dd_belatedpng.js"></script><script>dd_belatedpng.fix('*');</script><![endif]-->
+
+<!-- 百度统计 -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?6cea4b7347a17670aef0d0951a90a427";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<!--the base url of the website-->
+<input type="hidden" id="base_url" value="http://www.5lux.com/"/>
+<!--the current_product_id-->
+<input type="hidden" id="js_current_product_id" value=""/>
+<!--the current_product_id-->
+<input type="hidden" id="js_current_order_id" value=""/>
+<!--the current_product_id-->
+<input type="hidden" id="js_current_order_price" value=""/>
+<!--the current_user_id-->
+<input type="hidden" id="js_current_user_id" value=""/>
+<!--the current_user_name-->
+<input type="hidden" id="js_current_user_name" value=""/>
+<!--the current_user_ranklevel-->
+<input type="hidden" id="js_current_user_ranklevel" value="1"/>
+
+<input type="hidden" id="js_check_code_m" value=""/>
+<script type="text/javascript" src="http://www.5lux.com/vendor/js/good.js"></script><script src="http://www.5lux.com/vendor/js/5lux/index.js"></script><script type="text/javascript">
+   $(document).ready(function(){
+        var serverurl="http://www.5lux.com/promote/get_template_info";
+		var special_id ="541";
+        $.ajax(  
+        {  
+            type: "POST", 
+            url: serverurl,
+            data:{special_id:special_id},
+            //                    data:{'Data':J.json_encode_js(Pageact.data),'page':_current,'Perpage':Pageact.Perpage},
+            asynic:false,
+            success: function(originalRequest)
+            {
+                try{
+                    var f=eval('('+originalRequest+')');
+                    if(f['result_code']==='ok'){
+                       var list = f['data'];
+                       var len = f['data'].length;
+                        for(var i=0;i<len;i++){
+                             var key = i+1;
+                             $('#title'+key).html(list[i]['title']);
+                             $('#product'+key).html(list[i]['product']);
+                             //alert(list[i]['product'] instanceof Array);
+
+                        }
+                        $("img.loadimg").lazyload({
+                            //placeholder:"/vendor/images/loading.gif",
+                            effect:"fadeIn"
+                        });
+                    }else{
+                        
+                    }
+                }catch(e){
+                     
+                }
+            }	
+        });
+        
+    });
+    
+ </script> <script type="text/javascript" src="http://img.5lux.com.cn/source/js/lazyload/1.9.1/jquery.lazyload.min.js"></script>
+<script>
+    $(function(){
+        $("img.loadimg").lazyload({
+            //placeholder:"/vendor/images/loading.gif",
+            effect:"fadeIn"
+        });
+    })
+</script> 
+</head>
+<body>
+<input type="hidden" name="user_id" id="is_login_user_id" value="">
+<style>* {
+	margin: 0;
+	padding: 0;
+}
+.main {
+	width: 1000px;
+	margin: 0 auto;
+}
+area {
+	outline: none;
+}
+img,a{
+      display:block;
+}
+.sideNav_list {
+	width: 93px;
+	position: fixed;
+	top: 30px;
+	right: 10px;
+	z-index: 9999999;
+	_position: absolute;/*IE6*/
+}
+.sideNav_list ul {
+	background: #fff;
+	list-style-type: none;
+}
+.sideNav_list ul li {
+	width: 92px;
+	border-top: 1px solid #cacaca;
+	border-left: 1px solid #cacaca;
+	border-right: 1px solid #cacaca;
+	background-color: #fff;
+	text-align: center;
+	height: 36px;
+	line-height: 36px;
+	vertical-align: middle;
+}
+.sideNav_list ul li.top {
+	height: 61px;
+	border-bottom: 1px solid #cacaca;
+}
+.sideNav_list ul li a {
+	font-family: "微软雅黑";
+	color: #2d2d2d;
+	font-size: 12px;
+}
+a {
+	text-decoration: none;
+}</style> <div class=sideNav_list> <ul> <li> <a target=_blank href=http://www.5lux.com/>首页</a> </li> <li> <a target=_blank href=http://www.5lux.com/sales/news>最新上架</a> </li> <li> <a target=_blank href=http://www.5lux.com/brand>所有品牌</a> </li> <li> <a target=_blank href=http://www.5lux.com/girl>女士</a> </li> <li> <a target=_blank href=http://www.5lux.com/man>男士</a> </li> <li> <a target=_blank href=http://www.5lux.com/watch>腕表</a> </li> <li> <a target=_blank href=http://www.5lux.com/luggage>箱包</a> </li> <li> <a target=_blank href=http://www.5lux.com/beauty>美妆</a> </li> <li> <a target=_blank href=http://www.5lux.com/life>生活馆</a> </li> <li> <a target=_blank href=http://www.5lux.com/overseas>海外馆</a> </li> <li> <a target=_blank href=http://www.5lux.com/promote/index>时尚专题</a> </li> <li class=top> <a id=returntop href=#><img src=http://www.5lux.com/vendor/images/5lux/ce_top.png /></a> </li> </ul> </div> <div style=background-color:#efefef> <div class=main> <div> <img src=http://img.5lux.com.cn/511/avatar/2016/02/02/14543777524042.jpg /> </div> <div> <img src=http://img.5lux.com.cn/511/avatar/2016/02/02/14543777522808.jpg /> </div> <div style=position:relative> <img src=http://img.5lux.com.cn/511/avatar/2016/02/02/14543777529743.jpg /> <div style="position:absolute; left:128px;top:0"> <iframe height=390 width=750 src="http://yuntv.letv.com/bcloud.swf?uu=beyz5vfhqe&vu=1ea64417d8&auto_play=1&gpcflag=1" frameborder=0 allowfullscreen=allowfullscreen></iframe> </div> </div> <div> <img src=http://img.5lux.com.cn/511/avatar/2016/02/02/14543777528117.jpg /> </div> <div> <img src=http://img.5lux.com.cn/511/avatar/2016/02/02/14543777532988.jpg /> </div> <div> <img src=http://img.5lux.com.cn/511/avatar/2016/02/02/14543777534294.jpg /> </div> <div> <img src=http://img.5lux.com.cn/511/avatar/2016/02/02/14543777536286.jpg /> </div> <div> <img src=http://img.5lux.com.cn/511/avatar/2016/02/02/14543777536597.jpg /> </div> <div> <img src=http://img.5lux.com.cn/511/avatar/2016/02/02/14543777544514.jpg /> </div> <div> <img src=http://img.5lux.com.cn/511/avatar/2016/02/02/14543777546094.jpg /> </div> <div> <img src=http://img.5lux.com.cn/511/avatar/2016/02/02/14543777541077.jpg /> </div> <div> <a href=http://www.5lux.com target=_blank><img src=http://img.5lux.com.cn/511/avatar/2016/02/02/14543777548098.jpg /></a> </div> <div> <img src=http://img.5lux.com.cn/511/avatar/2016/02/02/14543777545258.jpg usemap=#Map border=0 /> <map name=Map> <area coords=13,4,329,197 href=http://www.5lux.com/promote/special/538 target=_blank /> <area coords=343,3,662,190 href=http://www.5lux.com/promote/special/540 target=_blank /> <area coords=676,5,994,192 href=http://www.5lux.com/promote/special/539 target=_blank /> </map> </div> </div> </div> <script src="http://s18.cnzz.com/stat.php?id=1245175&web_id=1245175&show=pic" charset=utf-8></script>

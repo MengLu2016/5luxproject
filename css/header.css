@@ -1,0 +1,585 @@
+@charset "utf-8";
+body, div, dl, dt, dd, ul, ol, li, form, p, th, td, img, input, h1, h2, h3, h4, h5, h6{
+    border: none;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    list-style: none;
+}
+body {
+    font: 12px/200% 'microsoft yahei','微软雅黑',Helvetica,Arial,Tahoma,"黑体",'宋体',sans-serif;
+    color: #000;
+    -webkit-text-size-adjust: none;
+}
+a img{
+	border: none;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+#newRule a{
+	background: url(../img/14616356858373.jpg) top no-repeat;
+	margin: 0 auto;
+	display: block;
+}
+#newRule a img{
+	display: block;
+	margin: 0 auto;
+}
+#popUp{
+	background: url(../img/popUp.PNG) no-repeat;
+	height: 416px;
+    width: 600px;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-30%);/*了解*/
+    display: none;
+    z-index: 99;
+}
+#popUp img{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+#headerNav{
+    color: #666;
+    background: #f2f2f2;
+}
+#headerNav1210{
+    width: 1210px;
+    margin: 0 auto;
+    height: 30px;
+}
+.home, .phone{
+    display: inline-block;
+    float: left;
+}
+.home{
+	line-height: 30px;
+    height: 30px;
+    width: 110px;
+    text-align: center;
+    position: relative;
+}
+.home b{
+	display: inline-block;
+    width: 16px;
+    height: 14px;
+    background: url(../img/home.png) no-repeat center;
+    position: absolute;
+    left: 2px;
+    top: 7px;
+}
+.home a{
+	display: inline-block;
+    margin-left: 7px;
+}
+#headerNav1210 i{
+    position: absolute;
+    height: 12px;
+    right: 0;
+    top: 9px;
+    border-left: 1px solid #dfdfdf;
+}
+
+.phone{
+    width: 200px;
+    line-height: 30px;
+    padding-left: 12px;
+}
+.phone b{
+	width: 25px;
+    height: 30px;
+    display: inline-block;
+    float: left;
+    background: url(../img/brandstore_share.png) no-repeat -348px -338px;
+}
+.info{
+    width: 604px;
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+    vertical-align: middle;
+}
+.logbox{
+    position: absolute;
+    right: 350px;
+    top: 0;
+}
+.login,.register,.my5lux,.help,.mobile{
+    display: inline-block;
+    color: #666;
+    line-height: 30px;
+    height: 30px;
+    position: relative;
+}
+.login{
+    width: 100px;
+    text-align: right;
+}
+.login span{
+    padding-right: 20px;
+}
+.register span{
+    width: 22px;
+    height: 24px;
+    float: left;
+    background: url(../img/youli.gif) no-repeat;
+    margin: 0 5px 0 17px;
+}
+.register a{
+    margin-right: 18px;
+}
+.my5lux{
+    width: 130px;
+    position: absolute;
+    right: 215px;
+    top: 0;
+    z-index: 50;
+}
+.my5lux dt, .mobile dt{
+    display: inline-block;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    height: 30px;
+    width: 100%;
+    position: relative;
+    background: url(../img/brandstore_share.png) no-repeat -253px -436px;
+}
+.my5lux span{
+    float: left;
+    padding-left: 15px;
+}
+.my5lux dd{
+	display: none;
+    float: left;
+    text-align: center;
+    width: 100%;
+    background: #fff;
+}
+.my5lux ul li{
+    line-height: 30px;
+    text-align: center;
+}
+.help{
+    position: absolute;
+    width: 85px;
+    right: 130px;
+    top: 0;
+    float: left;
+    text-align: center;
+}
+.mobile{
+    width: 106px;
+    padding: 0 11px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 33;
+    cursor: pointer;
+}
+.mobile dt{
+    padding-left: 5px;
+    background: url(../img/brandstore_share.png) no-repeat -218px -369px;
+}
+.mobile span{
+	float: left;
+}
+.mobile dd{
+    clear: both;
+    display: none;
+	width: 106px;
+    float: left;
+    background: #fff;
+    text-align: center;
+}
+.mobile li{
+    line-height: 20px;
+    font-size: 13px;
+}
+.mobile ul li span{
+    color: #d00000;
+    font-size: 16px;
+    float: none;
+}
+.mobile img{
+    border: none;
+    width: 106px;
+    height: 106px;
+    vertical-align: middle;
+}
+
+#headerMiddle{
+    background: #fff;
+}
+#headerMiddle1210{
+	width: 1210px;
+	margin: 0 auto;
+    position: relative;
+    height: 110px;
+}
+.logo{
+	
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 244px;
+    height: 110px;
+}
+.ad{
+    position: absolute;
+    top: 14px;
+    left: 290px;
+    width: 142px;
+    height: 80px;
+    overflow: hidden;
+}
+.ad img{
+    vertical-align: middle;
+}
+.search{
+    overflow: hidden;
+    position: absolute;
+    left: 485px;
+    top: 36px;
+}
+.searchInput{
+	width: 383px;
+    padding: 2px 2px;
+    background: #c69c6d;
+    height: 34px;
+}
+.searchInput input[type=text]{
+    color: grey;
+    width: 300px;
+    height: 34px;
+    line-height: 34px;
+    vertical-align: middle;
+    border: none;
+    background: #fff;
+    padding: 0 0 0 3px;
+    float: left;
+}
+.searchInput input[type=button]{
+    text-align: center;
+    width: 80px;
+    height: 34px;
+    border: none;
+    float: left;
+    color: #fff;
+    font-size: 15px;
+    background: none;
+}
+.adlist{
+    clear: both;
+}
+.adlist a:hover{
+    color: #d00000;
+}
+.adlist li{
+	display: inline-block;
+    float: left;
+    color: #999;
+    font-size: 11px;
+    padding-right: 25px;
+    line-height: 32px;
+}
+.cart{
+    position: absolute;
+    right: 10px;
+    top: 35px;
+    z-index: 30;
+}
+.cart dl{
+    width: 290px;
+    background: #fff;
+    position: relative;
+}
+.cart dt{
+    width: 138px;
+    height: 32px;
+    line-height: 32px;
+    text-indent: 45px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 2px rgba(0,0,0,.2);
+    position: relative;
+    float: right;
+    color: #666;
+    display: inline-block;
+    background: url(../img/brandstore_share.png) no-repeat -337px -405px;
+}
+.cart dt img{
+    position: absolute;
+    left: 10px;
+    top: 2px;
+}
+.cart dt span{
+    color: #d00000;
+}
+.cart dd{
+    clear: both;
+    width: 268px;
+    display: none;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    box-shadow: 0 0 2px rgba(0,0,0,.2);
+    background-color: #fff;
+}
+.cart b{
+	width: 138px;
+    height: 3px;
+    display: none;
+    position: absolute;
+    background: #fff;
+    right: 1px;
+    top: 32px;
+    z-index: 1;
+}
+
+
+#nav{
+    width: 100%;
+    height: 38px;
+    background: url(../img/navi_1pxbg.png) repeat-x;
+    vertical-align: middle;
+    box-shadow: 0 4px 4px #c7c6c6;
+}
+.nav1210{
+    position: relative;
+    width: 1210px;
+    margin: 0 auto;
+}
+.nav1210 .menu_list{
+    display: inline-block;
+    float: left;
+    z-index: 20;
+    font-size: 14px;
+    text-align: center;
+    font-family: "微软雅黑";
+    height: 40px;
+    line-height: 40px;
+}
+
+.nav_a{
+    display: block;
+    width: 82px;
+    height: 38px;
+    color: #c8a985;
+}
+.nav1210 ul li a:hover {
+    color: #fff;
+}
+.nav1210 #menuFirst{
+    color: #ffffff;
+    width: 130px;
+    background: url(../img/lux_index.png) -8px -215px no-repeat;
+    font-size: 14px;
+    font-weight: bold;
+    height: 38px;
+    color: #fff;
+    display: inline-block;
+    z-index: 999;
+}
+.menu_list:first-child{
+    width: 130px;
+}
+
+.menu_list:last-child i{
+    display: inline-block;
+    float: left;
+    width: 19px;
+    height: 40px;
+    line-height: 40px;
+    background: url(../img/share02.png) no-repeat -58px -169px;
+    margin-left: 23px;
+}
+
+/*/三级菜单/*/
+.menu_list .first{
+    width: 130px;
+    display: none;
+    min-height: 585px;
+    position: relative;
+    z-index: 1000;
+    vertical-align: top;
+}
+
+.first ul li{
+    vertical-align: top;
+    position: relative;
+    width: 130px;
+    z-index: 1000;
+}
+
+.secondary{
+    filter: alpha(opacity=85);
+    opacity: 0.85;
+    height: 36px;
+    text-align: left;
+    line-height: 36px;
+    margin: 0 auto;
+    position: relative;
+    padding-left: 48px;
+}
+
+#header .recommend{
+    background: url(../img/brand_category1.png) 15px no-repeat;
+    background-position: -3px -5px;
+    background-color: #fff;
+}
+
+#header .recommend:nth-child(2){
+    background-position: -3px -36px;
+}
+#header .showbag a:hover{
+    text-decoration: underline;
+}
+
+#header .recommend span{
+    color: #c69c6d;
+}
+
+.first_category .secondary i{
+    position: absolute;
+    right: 2px;
+    top: 0;
+    display: none;
+    height: 36px;
+    width: 20px;
+    background: url(../img/share02.png) no-repeat -304px -33px;
+}
+.menu_show{
+    width: 800px;
+    display: none;
+    background-color: #fff;
+    position: absolute;
+    left: 130px;
+    top: 0;
+    min-height: 220px;
+}
+
+.showshop{
+    background-color: #ffffff;
+    min-width: 605px;
+    max-width: 750px;
+    border-bottom: #d7d7d7 1px solid;
+    margin: 10px 0px 10px 20px;
+    float: left;
+    clear: both;
+    overflow: hidden;
+    line-height: 25px;
+}
+.showshop h2{
+    float: left;
+    color: #CF0201;
+    width: 105px;
+    font-size: 14px;
+    font-style: normal;
+    padding-left: 25px;
+    text-align: left;
+    line-height: 25px;
+}
+#nav .showshop h2 a{
+    line-height: 25px;
+    font-size: 14px;
+    color: #CF0201;
+}
+
+.showbag{
+    max-width: 500px;
+    min-height: 25px;
+    line-height: 25px;
+    float: left;
+    display: block;
+}
+
+#nav .showbag a{
+    color: #757272;
+    font-size: 12px;
+    float: left;
+    margin-right: 10px;
+}
+
+.showindex{
+    float: left;
+    padding-left: 25px;
+    width: 590px;
+    height: 70px;
+}
+
+#nav .showindex a{
+    display: block;
+    width: 115px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    background-color: #cf0201;
+    margin-top: 20px;
+    float: left;
+    margin-left: 20px;
+}
+
+
+#icon_wrap{
+    position: absolute;
+    right: 15px;
+    top: 0;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 10;
+}
+
+#icon_wrap li{
+    float: left;
+    width: 30px;
+    margin-right: 12px;
+    overflow:hidden;
+}
+#icon_wrap a{
+    width:100%;
+}
+
+.divList1, .divList2, .divList3{
+    width: 200px;
+    clear: both;
+}
+#icon_wrap b{
+    font-size: 12px;
+}
+.icon1, .icon2, .icon3{
+	width: 30px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    margin-right: 3px;
+    display: inline-block;
+}
+.icon1{
+    background: url(../img/share02.png) no-repeat -237px -66px;
+}
+.icon2{
+    background: url(../img/share02.png) no-repeat -296px -66px;
+}
+.icon3{
+    background: url(../img/share02.png) no-repeat -354px -66px;
+}
+#icon_wrap b{
+    float: left;
+    font-weight: 400;
+    color: #fff;
+}
+
+
+
+
+
+
+
+

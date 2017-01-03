@@ -1,0 +1,110 @@
+@charset "utf-8";
+body, div, dl, dt, dd, ul, ol, li, form, p, th, td, img, input{
+    border: none;
+    margin: 0;
+    padding: 0;
+    outline: none;/*了解*/
+    list-style: none;
+}
+body {
+    font: 12px/200% 'microsoft yahei','微软雅黑',Helvetica,Arial,Tahoma,"黑体",'宋体',sans-serif;
+    color: #000;
+    -webkit-text-size-adjust: none;
+}
+a img{
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+#footer a:hover{
+    text-decoration: underline;
+}
+#footer{
+    background: url(../img/footer_message_bg.jpg) center;
+    border-top: 1px solid #c9c9c9;
+}
+.footer1210{
+    width: 1210px;
+    height: 600px;
+    margin: 0 auto;
+}
+.footer1210 .footer_top{
+    height: 116px;
+    border-bottom: 1px solid #c9c9c9;
+    clear: both;
+}
+.footer_top ul li{
+    float: left;
+    width: 242px;
+    height: 64px;
+    margin-top: 26px;
+}
+.footer_top a, .footer_middle a{
+    font-size: 12px;
+    color: #333;
+}
+.footer_top img{
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+    padding: 0 5px 0 10px;
+    cursor: pointer;
+    vertical-align: top;
+    float: left;
+}
+.footer_top_text{
+    display: inline-block;
+    float: left;
+    width: 160px;
+    height: 48px;
+    margin-top: 8px;
+}
+.text_title{
+    font-weight: bold;
+}
+.footer_middle{
+    height: 283px;
+    clear: both;
+}
+.footer_middle ul{
+    padding-left: 20px;
+}
+.footer_middle ul li{
+    width: 185px;
+    float: left;
+    overflow: hidden;
+}
+.footer_middle dt{
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #000;
+}
+.footer_middle .footer_middle_app{
+    width: 140px;
+    height: 283px;
+}
+.footer_middle .footer_middle_weibo{
+    width: 125px;
+    height: 283px;
+}
+.footer_bottom{
+    text-align: center;
+    color: #fff;
+}
+.footer_bottom_top{
+    line-height: 66px;
+}
+.footer_bottom_top a, .footer_bottom_middle a{
+    margin: 6px;
+}
+.footer_bottom_bottom{
+    margin-top: 23px;
+}
+.footer_bottom_bottom img{
+    width: 108px;
+    height: 40px;
+    vertical-align: top;
+}
